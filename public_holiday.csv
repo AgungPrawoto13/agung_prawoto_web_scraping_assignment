@@ -1,0 +1,13 @@
+,date,localName,name,countryCode,fixed,global,counties,launchYear,type
+0,2020-01-01,New Year's Day,New Year's Day,US,False,True,,,Public
+1,2020-01-20,"Martin Luther King, Jr. Day","Martin Luther King, Jr. Day",US,False,True,,,Public
+2,2020-02-17,Presidents Day,Washington's Birthday,US,False,True,,,Public
+3,2020-04-10,Good Friday,Good Friday,US,False,False,"['US-CT', 'US-DE', 'US-HI', 'US-IN', 'US-KY', 'US-LA', 'US-NC', 'US-ND', 'US-NJ', 'US-TN']",,Public
+4,2020-04-10,Good Friday,Good Friday,US,False,False,['US-TX'],,Optional
+5,2020-05-25,Memorial Day,Memorial Day,US,False,True,,,Public
+6,2020-07-03,Independence Day,Independence Day,US,False,True,,,Public
+7,2020-09-07,Labor Day,Labour Day,US,False,True,,,Public
+8,2020-10-12,Columbus Day,Columbus Day,US,False,False,"['US-AL', 'US-AZ', 'US-CO', 'US-CT', 'US-GA', 'US-ID', 'US-IL', 'US-IN', 'US-IA', 'US-KS', 'US-KY', 'US-LA', 'US-ME', 'US-MD', 'US-MA', 'US-MS', 'US-MO', 'US-MT', 'US-NE', 'US-NH', 'US-NJ', 'US-NM', 'US-NY', 'US-NC', 'US-OH', 'US-OK', 'US-PA', 'US-RI', 'US-SC', 'US-TN', 'US-UT', 'US-VA', 'US-WV']",,Public
+9,2020-11-11,Veterans Day,Veterans Day,US,False,True,,,Public
+10,2020-11-26,Thanksgiving Day,Thanksgiving Day,US,False,True,,1863.0,Public
+11,2020-12-25,Christmas Day,Christmas Day,US,False,True,,,Public
