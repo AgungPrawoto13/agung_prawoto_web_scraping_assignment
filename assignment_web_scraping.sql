@@ -1,18 +1,106 @@
-INSERT INTO test.assignment_web_scraping (pokemon_name,price,img) VALUES
-	 ('Bulbasaur','£63.00','https://scrapeme.live/wp-content/uploads/2018/08/001-350x350.png'),
-	 ('Ivysaur','£87.00','https://scrapeme.live/wp-content/uploads/2018/08/002-350x350.png'),
-	 ('Venusaur','£105.00','https://scrapeme.live/wp-content/uploads/2018/08/003-350x350.png'),
-	 ('Charmander','£48.00','https://scrapeme.live/wp-content/uploads/2018/08/004-350x350.png'),
-	 ('Charmeleon','£165.00','https://scrapeme.live/wp-content/uploads/2018/08/005-350x350.png'),
-	 ('Charizard','£156.00','https://scrapeme.live/wp-content/uploads/2018/08/006-350x350.png'),
-	 ('Squirtle','£130.00','https://scrapeme.live/wp-content/uploads/2018/08/007-350x350.png'),
-	 ('Wartortle','£123.00','https://scrapeme.live/wp-content/uploads/2018/08/008-350x350.png'),
-	 ('Blastoise','£76.00','https://scrapeme.live/wp-content/uploads/2018/08/009-350x350.png'),
-	 ('Caterpie','£73.00','https://scrapeme.live/wp-content/uploads/2018/08/010-350x350.png');
-INSERT INTO test.assignment_web_scraping (pokemon_name,price,img) VALUES
-	 ('Metapod','£148.00','https://scrapeme.live/wp-content/uploads/2018/08/011-350x350.png'),
-	 ('Butterfree','£162.00','https://scrapeme.live/wp-content/uploads/2018/08/012-350x350.png'),
-	 ('Weedle','£25.00','https://scrapeme.live/wp-content/uploads/2018/08/013-350x350.png'),
-	 ('Kakuna','£148.00','https://scrapeme.live/wp-content/uploads/2018/08/014-350x350.png'),
-	 ('Beedrill','£168.00','https://scrapeme.live/wp-content/uploads/2018/08/015-350x350.png'),
-	 ('Pidgey','£159.00','https://scrapeme.live/wp-content/uploads/2018/08/016-350x350.png');
+INSERT INTO test.assignment_web_scraping (pokemon_name,price,img,category) VALUES
+	 ('Ivysaur','£87.00','https://scrapeme.live/wp-content/uploads/2018/08/002-350x350.png','rating'),
+	 ('Ivysaur','£87.00','https://scrapeme.live/wp-content/uploads/2018/08/002-350x350.png','rating'),
+	 ('Venusaur','£105.00','https://scrapeme.live/wp-content/uploads/2018/08/003-350x350.png','rating'),
+	 ('Venusaur','£105.00','https://scrapeme.live/wp-content/uploads/2018/08/003-350x350.png','rating'),
+	 ('Charmander','£48.00','https://scrapeme.live/wp-content/uploads/2018/08/004-350x350.png','rating'),
+	 ('Charmander','£48.00','https://scrapeme.live/wp-content/uploads/2018/08/004-350x350.png','rating'),
+	 ('Charmeleon','£165.00','https://scrapeme.live/wp-content/uploads/2018/08/005-350x350.png','rating'),
+	 ('Charmeleon','£165.00','https://scrapeme.live/wp-content/uploads/2018/08/005-350x350.png','rating'),
+	 ('Charizard','£156.00','https://scrapeme.live/wp-content/uploads/2018/08/006-350x350.png','rating'),
+	 ('Charizard','£156.00','https://scrapeme.live/wp-content/uploads/2018/08/006-350x350.png','rating');
+INSERT INTO test.assignment_web_scraping (pokemon_name,price,img,category) VALUES
+	 ('Squirtle','£130.00','https://scrapeme.live/wp-content/uploads/2018/08/007-350x350.png','rating'),
+	 ('Squirtle','£130.00','https://scrapeme.live/wp-content/uploads/2018/08/007-350x350.png','rating'),
+	 ('Wartortle','£123.00','https://scrapeme.live/wp-content/uploads/2018/08/008-350x350.png','rating'),
+	 ('Wartortle','£123.00','https://scrapeme.live/wp-content/uploads/2018/08/008-350x350.png','rating'),
+	 ('Blastoise','£76.00','https://scrapeme.live/wp-content/uploads/2018/08/009-350x350.png','rating'),
+	 ('Blastoise','£76.00','https://scrapeme.live/wp-content/uploads/2018/08/009-350x350.png','rating'),
+	 ('Caterpie','£73.00','https://scrapeme.live/wp-content/uploads/2018/08/010-350x350.png','rating'),
+	 ('Caterpie','£73.00','https://scrapeme.live/wp-content/uploads/2018/08/010-350x350.png','rating'),
+	 ('Metapod','£148.00','https://scrapeme.live/wp-content/uploads/2018/08/011-350x350.png','rating'),
+	 ('Metapod','£148.00','https://scrapeme.live/wp-content/uploads/2018/08/011-350x350.png','rating');
+INSERT INTO test.assignment_web_scraping (pokemon_name,price,img,category) VALUES
+	 ('Butterfree','£162.00','https://scrapeme.live/wp-content/uploads/2018/08/012-350x350.png','rating'),
+	 ('Butterfree','£162.00','https://scrapeme.live/wp-content/uploads/2018/08/012-350x350.png','rating'),
+	 ('Weedle','£25.00','https://scrapeme.live/wp-content/uploads/2018/08/013-350x350.png','rating'),
+	 ('Weedle','£25.00','https://scrapeme.live/wp-content/uploads/2018/08/013-350x350.png','rating'),
+	 ('Kakuna','£148.00','https://scrapeme.live/wp-content/uploads/2018/08/014-350x350.png','rating'),
+	 ('Kakuna','£148.00','https://scrapeme.live/wp-content/uploads/2018/08/014-350x350.png','rating'),
+	 ('Beedrill','£168.00','https://scrapeme.live/wp-content/uploads/2018/08/015-350x350.png','rating'),
+	 ('Beedrill','£168.00','https://scrapeme.live/wp-content/uploads/2018/08/015-350x350.png','rating'),
+	 ('Pidgey','£159.00','https://scrapeme.live/wp-content/uploads/2018/08/016-350x350.png','rating'),
+	 ('Pidgey','£159.00','https://scrapeme.live/wp-content/uploads/2018/08/016-350x350.png','rating');
+INSERT INTO test.assignment_web_scraping (pokemon_name,price,img,category) VALUES
+	 ('Pidgeotto','£84.00','https://scrapeme.live/wp-content/uploads/2018/08/017-350x350.png','rating'),
+	 ('Pidgeotto','£84.00','https://scrapeme.live/wp-content/uploads/2018/08/017-350x350.png','rating'),
+	 ('Uxie','£200.00','https://scrapeme.live/wp-content/uploads/2018/08/480-350x350.png','expensive_price'),
+	 ('Uxie','£200.00','https://scrapeme.live/wp-content/uploads/2018/08/480-350x350.png','expensive_price'),
+	 ('Magmortar','£200.00','https://scrapeme.live/wp-content/uploads/2018/08/467-350x350.png','expensive_price'),
+	 ('Magmortar','£200.00','https://scrapeme.live/wp-content/uploads/2018/08/467-350x350.png','expensive_price'),
+	 ('Vibrava','£200.00','https://scrapeme.live/wp-content/uploads/2018/08/329-350x350.png','expensive_price'),
+	 ('Vibrava','£200.00','https://scrapeme.live/wp-content/uploads/2018/08/329-350x350.png','expensive_price'),
+	 ('Persian','£200.00','https://scrapeme.live/wp-content/uploads/2018/08/053-350x350.png','expensive_price'),
+	 ('Persian','£200.00','https://scrapeme.live/wp-content/uploads/2018/08/053-350x350.png','expensive_price');
+INSERT INTO test.assignment_web_scraping (pokemon_name,price,img,category) VALUES
+	 ('Zweilous','£199.00','https://scrapeme.live/wp-content/uploads/2018/08/634-350x350.png','expensive_price'),
+	 ('Zweilous','£199.00','https://scrapeme.live/wp-content/uploads/2018/08/634-350x350.png','expensive_price'),
+	 ('Tranquill','£199.00','https://scrapeme.live/wp-content/uploads/2018/08/520-350x350.png','expensive_price'),
+	 ('Tranquill','£199.00','https://scrapeme.live/wp-content/uploads/2018/08/520-350x350.png','expensive_price'),
+	 ('Skarmory','£199.00','https://scrapeme.live/wp-content/uploads/2018/08/227-350x350.png','expensive_price'),
+	 ('Skarmory','£199.00','https://scrapeme.live/wp-content/uploads/2018/08/227-350x350.png','expensive_price'),
+	 ('Spinarak','£199.00','https://scrapeme.live/wp-content/uploads/2018/08/167-350x350.png','expensive_price'),
+	 ('Spinarak','£199.00','https://scrapeme.live/wp-content/uploads/2018/08/167-350x350.png','expensive_price'),
+	 ('Cloyster','£199.00','https://scrapeme.live/wp-content/uploads/2018/08/091-350x350.png','expensive_price'),
+	 ('Cloyster','£199.00','https://scrapeme.live/wp-content/uploads/2018/08/091-350x350.png','expensive_price');
+INSERT INTO test.assignment_web_scraping (pokemon_name,price,img,category) VALUES
+	 ('Eelektrik','£198.00','https://scrapeme.live/wp-content/uploads/2018/08/603-350x350.png','expensive_price'),
+	 ('Eelektrik','£198.00','https://scrapeme.live/wp-content/uploads/2018/08/603-350x350.png','expensive_price'),
+	 ('Unown','£198.00','https://scrapeme.live/wp-content/uploads/2018/08/201-350x350.png','expensive_price'),
+	 ('Unown','£198.00','https://scrapeme.live/wp-content/uploads/2018/08/201-350x350.png','expensive_price'),
+	 ('Hypno','£198.00','https://scrapeme.live/wp-content/uploads/2018/08/097-350x350.png','expensive_price'),
+	 ('Hypno','£198.00','https://scrapeme.live/wp-content/uploads/2018/08/097-350x350.png','expensive_price'),
+	 ('Kartana','£197.00','https://scrapeme.live/wp-content/uploads/2018/08/798-350x350.png','expensive_price'),
+	 ('Kartana','£197.00','https://scrapeme.live/wp-content/uploads/2018/08/798-350x350.png','expensive_price'),
+	 ('Mienfoo','£197.00','https://scrapeme.live/wp-content/uploads/2018/08/619-350x350.png','expensive_price'),
+	 ('Mienfoo','£197.00','https://scrapeme.live/wp-content/uploads/2018/08/619-350x350.png','expensive_price');
+INSERT INTO test.assignment_web_scraping (pokemon_name,price,img,category) VALUES
+	 ('Pansage','£197.00','https://scrapeme.live/wp-content/uploads/2018/08/511-350x350.png','expensive_price'),
+	 ('Pansage','£197.00','https://scrapeme.live/wp-content/uploads/2018/08/511-350x350.png','expensive_price'),
+	 ('Claydol','£197.00','https://scrapeme.live/wp-content/uploads/2018/08/344-350x350.png','expensive_price'),
+	 ('Claydol','£197.00','https://scrapeme.live/wp-content/uploads/2018/08/344-350x350.png','expensive_price'),
+	 ('Weedle','£25.00','https://scrapeme.live/wp-content/uploads/2018/08/013-350x350.png','cheap_price'),
+	 ('Weedle','£25.00','https://scrapeme.live/wp-content/uploads/2018/08/013-350x350.png','cheap_price'),
+	 ('Bellossom','£25.00','https://scrapeme.live/wp-content/uploads/2018/08/182-350x350.png','cheap_price'),
+	 ('Bellossom','£25.00','https://scrapeme.live/wp-content/uploads/2018/08/182-350x350.png','cheap_price'),
+	 ('Vigoroth','£25.00','https://scrapeme.live/wp-content/uploads/2018/08/288-350x350.png','cheap_price'),
+	 ('Vigoroth','£25.00','https://scrapeme.live/wp-content/uploads/2018/08/288-350x350.png','cheap_price');
+INSERT INTO test.assignment_web_scraping (pokemon_name,price,img,category) VALUES
+	 ('Carvanha','£25.00','https://scrapeme.live/wp-content/uploads/2018/08/318-350x350.png','cheap_price'),
+	 ('Carvanha','£25.00','https://scrapeme.live/wp-content/uploads/2018/08/318-350x350.png','cheap_price'),
+	 ('Mesprit','£25.00','https://scrapeme.live/wp-content/uploads/2018/08/481-350x350.png','cheap_price'),
+	 ('Mesprit','£25.00','https://scrapeme.live/wp-content/uploads/2018/08/481-350x350.png','cheap_price'),
+	 ('Weepinbell','£26.00','https://scrapeme.live/wp-content/uploads/2018/08/070-350x350.png','cheap_price'),
+	 ('Weepinbell','£26.00','https://scrapeme.live/wp-content/uploads/2018/08/070-350x350.png','cheap_price'),
+	 ('Miltank','£26.00','https://scrapeme.live/wp-content/uploads/2018/08/241-350x350.png','cheap_price'),
+	 ('Miltank','£26.00','https://scrapeme.live/wp-content/uploads/2018/08/241-350x350.png','cheap_price'),
+	 ('Larvitar','£26.00','https://scrapeme.live/wp-content/uploads/2018/08/246-350x350.png','cheap_price'),
+	 ('Larvitar','£26.00','https://scrapeme.live/wp-content/uploads/2018/08/246-350x350.png','cheap_price');
+INSERT INTO test.assignment_web_scraping (pokemon_name,price,img,category) VALUES
+	 ('Seedot','£26.00','https://scrapeme.live/wp-content/uploads/2018/08/273-350x350.png','cheap_price'),
+	 ('Seedot','£26.00','https://scrapeme.live/wp-content/uploads/2018/08/273-350x350.png','cheap_price'),
+	 ('Nuzleaf','£26.00','https://scrapeme.live/wp-content/uploads/2018/08/274-350x350.png','cheap_price'),
+	 ('Nuzleaf','£26.00','https://scrapeme.live/wp-content/uploads/2018/08/274-350x350.png','cheap_price'),
+	 ('Whimsicott','£26.00','https://scrapeme.live/wp-content/uploads/2018/08/547-350x350.png','cheap_price'),
+	 ('Whimsicott','£26.00','https://scrapeme.live/wp-content/uploads/2018/08/547-350x350.png','cheap_price'),
+	 ('Tyrantrum','£26.00','https://scrapeme.live/wp-content/uploads/2018/08/697-350x350.png','cheap_price'),
+	 ('Tyrantrum','£26.00','https://scrapeme.live/wp-content/uploads/2018/08/697-350x350.png','cheap_price'),
+	 ('Parasect','£27.00','https://scrapeme.live/wp-content/uploads/2018/08/047-350x350.png','cheap_price'),
+	 ('Parasect','£27.00','https://scrapeme.live/wp-content/uploads/2018/08/047-350x350.png','cheap_price');
+INSERT INTO test.assignment_web_scraping (pokemon_name,price,img,category) VALUES
+	 ('Machoke','£27.00','https://scrapeme.live/wp-content/uploads/2018/08/067-350x350.png','cheap_price'),
+	 ('Machoke','£27.00','https://scrapeme.live/wp-content/uploads/2018/08/067-350x350.png','cheap_price'),
+	 ('Rhydon','£27.00','https://scrapeme.live/wp-content/uploads/2018/08/112-350x350.png','cheap_price'),
+	 ('Rhydon','£27.00','https://scrapeme.live/wp-content/uploads/2018/08/112-350x350.png','cheap_price'),
+	 ('Corsola','£27.00','https://scrapeme.live/wp-content/uploads/2018/08/222-350x350.png','cheap_price'),
+	 ('Corsola','£27.00','https://scrapeme.live/wp-content/uploads/2018/08/222-350x350.png','cheap_price');
